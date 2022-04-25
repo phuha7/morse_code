@@ -44,19 +44,29 @@ dict = {
 }
 
 
-string_to_convert = input("Enter the string you want to convert to morse code: ")
+def translate():
+    string_to_convert = input("Enter the string you want to convert to morse code: ")
 
-converted_string = ''
+    converted_string = ''
 
-try:
-    for letter in string_to_convert:
-        converted_string += dict[letter]
-        converted_string += ' '
-except KeyError as e:
-    print(str(e) + ' cannot be translated.')
+    try:
+        for letter in string_to_convert:
+            converted_string += dict[letter]
+            converted_string += ' '
+    except KeyError as e:
+        print(str(e) + ' cannot be translated.')
+
+    print(converted_string)
 
 
-print(converted_string)
+on = True
 
+
+while on:
+    translate()
+    ans = input("Enter 'n' to exit or Enter to continue: ").lower()
+
+    if ans == 'n':
+        on = False
 
 
