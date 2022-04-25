@@ -1,10 +1,10 @@
 # morse_code
-# This program translates latin alphabet to morse code
-# It takes a string from the command line argument 
+This program translates latin alphabet to morse code.
+It takes a string from the command line argument. 
 
-# example input and output
-# Enter the string you want to convert to morse code: apple
-# .- .--. .--. .-.. .
+examples input and output:
+Enter the string you want to convert to morse code: apple
+.- .--. .--. .-.. .
 
-# Enter the string you want to convert to morse code: %
-# '%' cannot be translated.
+Enter the string you want to convert to morse code: %
+'%' cannot be translated.
