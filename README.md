@@ -1,5 +1,5 @@
 # morse_code
-This program translates latin alphabet to morse code.
+This program turns latin alphabet to morse code.
 It takes a string from the command line argument. 
 
 examples input and output:
